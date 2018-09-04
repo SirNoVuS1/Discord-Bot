@@ -11,7 +11,7 @@ var connection = require(`ffmpeg-binaries`) ;
 var opusscript = require("opusscript");
 
 
-robot.login(`NDcxNTczNjI0NjIxNDk4MzY4.DjsHBA.katrqar740ajgbZmaD01M4wruhw`) ;
+robot.login(`ВАШ ТОКЕН`) ;
 
 var prefix = "$" ;
 var OrdaPrefix = '[Орда]' ;
@@ -91,8 +91,8 @@ robot.on(`message`, (message) =>{
       message.channel.sendMessage('Ты должен сначала войти в голосовой канал!');
     }
   }
-  if (message.content === prefix + "myprefix") {
-    (OrdaPrefix + ' ' + message.author.username)
+  //f (message.content === prefix + "myprefix") {
+  //  (OrdaPrefix + ' ' + message.author.username) В разработке
   }
 //cnnection.playArbitraryInput('https://www.youtube.com/watch?v=ozYjakb_py4');
 });
